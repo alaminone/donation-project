@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/g6w6FTJ/pexels-kirill-dratsevich-12227661.jpg",
+    "title": "Premium Fitness Tracker",
+    "category": "Health",
+    "category_bg": "#0052ff",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#27ae60",
+    "description": "Support the health and well-being of underprivileged individuals by donating towards the purchase of premium fitness trackers. These trackers help monitor physical activity, heart rate, and sleep patterns, promoting a healthier lifestyle. Your donation will make a meaningful impact on those in need.",
+    "price": 49.99
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/9yhxK4x/pexels-pixabay-220365.jpg",
+    "title": "Men's Casual T-Shirt",
+    "category": "Clothing",
+    "category_bg": "#e74c3c",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#f39c12",
+    "description": "Extend a helping hand to the less fortunate by contributing to the provision of comfortable men's casual t-shirts. These basic clothing items are essential for daily life and can bring comfort to those in need. Your donation will provide dignity and warmth.",
+    "price": 19.99
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/Jzhpkpx/pexels-rdne-stock-project-6646778.jpg",
+    "title": "Organic Fruit Basket",
+    "category": "Food",
+    "category_bg": "#2ecc71",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#9b59b6",
+    "description": "Help combat hunger and malnutrition among the disadvantaged by donating organic fruit baskets. These nutritious gifts provide a source of fresh, healthy food to individuals and families in need. Your donation will nourish bodies and uplift spirits.",
+    "price": 29.99
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/k104cTV/pexels-sanket-mishra-16282573.jpg",
+    "title": "Introduction to Education of...",
+    "category": "Education",
+    "category_bg": "#f39c12",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#3498db",
+    "description": "Empower less privileged students by contributing to their education through the distribution of introductory computer science textbooks. These books are valuable educational resources, equipping students with knowledge and skills for a brighter future. Your donation will open doors to learning.",
+    "price": 29.99
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/JvhPjm2/pexels-rdne-stock-project-6646918.jpg",
+    "title": "Donation for Health Care",
+    "category": "Health",
+    "category_bg": "#3498db",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#27ae60",
+    "description": "Support healthcare initiatives for underserved communities by making a donation towards essential medical supplies and services. Your contribution will help provide critical healthcare resources to those who are most vulnerable, improving their quality of life and well-being.",
+    "price": 70.00
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/PYDmf1S/pexels-vidal-balielo-jr-3376790.jpg",
+    "title": "Good tretment",
+    "category": "Health",
+    "category_bg": "#3498db",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#27ae60",
+    "description": "Empower disadvantaged individuals with improved nutrition by donating nutrition essentials packs. These bundles include a selection of high-quality supplements and vitamins to support immune health and overall well-being. Your donation will promote a healthier future.",
+    "price": 39.99
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/pf2LnQk/pexels-rahul-pandit-6040170.jpg",
+    "title": "Women's Stylish Dress",
+    "category": "Clothing",
+    "category_bg": "#e74c3c",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#f39c12",
+    "description": "Make a positive impact in the lives of vulnerable women by donating stylish dresses. These clothing items boost confidence and self-esteem, enabling women to thrive in various aspects of life. Your donation will contribute to their empowerment.",
+    "price": 49.99
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/VjT3LMw/pexels-rdne-stock-project-6647121.jpg",
+    "title": "Gourmet Chocolate Collection",
+    "category": "Food",
+    "category_bg": "#2ecc71",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#9b59b6",
+    "description": "Bring joy to the less fortunate by donating gourmet chocolate collections. These delectable treats provide moments of happiness and indulgence for individuals facing challenges. Your donation will sweeten their days.",
+    "price": 39.99
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/nnL4pdV/pexels-safari-consoler-11580454.jpg",
+    "title": "Mathematics for Engineers",
+    "category": "Education",
+    "category_bg": "#f39c12",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#3498db",
+    "description": "Support education and skill development by donating mathematics textbooks for aspiring engineers. These books are essential learning resources, empowering students with mathematical knowledge to pursue engineering careers. Your donation will fuel their academic journey.",
+    "price": 44.99
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/jbjSTmd/pexels-tirachard-kumtanom-733850.jpg",
+    "title": "Donation for Clothing",
+    "category": "Clothing",
+    "category_bg": "#e74c3c",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#f39c12",
+    "description": "Extend warmth and protection to those without adequate clothing by making a donation for clothing. Your contribution will provide essential garments to individuals facing harsh conditions, keeping them safe from the elements and offering comfort.",
+    "price": 50.70
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/SmjLBx8/pexels-polina-tankilevitch-3873169.jpg",
+    "title": "Yoga Mat & Accessories Set",
+    "category": "Health",
+    "category_bg": "#3498db",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#27ae60",
+    "description": "Promote physical and mental well-being among underserved communities by donating yoga mats and accessories sets. These kits encourage mindfulness and healthy living, improving overall quality of life. Your donation will empower individuals to embrace a balanced lifestyle.",
+    "price": 29.99
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/L66nPWN/pexels-sanket-mishra-16282571.jpg",
+    "title": "Kids' Cartoon T-Shirt",
+    "category": "Clothing",
+    "category_bg": "#e74c3c",
+    "card_bg": "#ffffff",
+    "text_button_bg": "#f39c12",
+    "description": "Brighten the lives of children in need by donating colorful kids' cartoon t-shirts. These fun and playful clothing items bring joy and self-expression to young hearts. Your donation will make a positive impact on their childhood experiences.",
+    "price": 14.99
+  }
+]

@@ -1,9 +1,12 @@
+import Bannar from "../../componentss/Bannar/Bannar";
+import Donationitems from "../../componentss/allitem/Donationitems";
 
 
 const Home = () => {
     return (
         <div>
-            home
+           <Bannar></Bannar>
+           <Donationitems></Donationitems>
         </div>
     );
 };

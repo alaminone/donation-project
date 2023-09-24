@@ -5,6 +5,8 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './Pagess/root/Root'
 import Home from './Pagess/homepage/Home'
+import Donation from './Pagess/Donation/Donation'
+import Statistics from './Pagess/Statistics/Statistics'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Home></Home>
+      },
+      {
+        path:"/donation",
+        element:<Donation></Donation>
+      },
+      {
+        path:"/statistics",
+        element:<Statistics></Statistics>
       }
     ]
   }
