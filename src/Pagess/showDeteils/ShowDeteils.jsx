@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { saveDonationDetelis } from '../../utiliti/localstroge';
 
 const ShowDeteils = () => {
   const alldeteils = useLoaderData();
@@ -10,6 +11,7 @@ const ShowDeteils = () => {
   const { title, img, description, price,button_bg,title_text } = showDonationDeteils;
 
  const handelDonationBtn = () =>{
+    saveDonationDetelis(intId);
     toast.error("Thanks for your Donation", {
         position: "top-center",
         autoClose: 2000,

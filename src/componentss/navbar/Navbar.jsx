@@ -3,10 +3,17 @@ import logo from "../../assets/img/Logo 2.png"
 
 const Navbar = () => {
 
+  const activeLinkColor = {
+    // backgroundColor: "#FF444A",
+    textDecoration: "underline",
+    textDecorationColor: "#FF444A",
+    color: "#FF444A",
+  };
+
 const navLink = <>
-    <li><NavLink to={"/"}>Home</NavLink></li>
-    <li><NavLink to={"/donation"}>Donation</NavLink></li>
-    <li><NavLink to={"/statistics"}>Statistics</NavLink></li>
+    <li><NavLink activeStyle={activeLinkColor} to={"/"} >Home</NavLink></li>
+      <li><NavLink activeStyle={activeLinkColor} to={"/donation"} activeClassName="active-link-bg">Donation</NavLink></li>
+      <li><NavLink activeStyle={activeLinkColor} to={"/statistics"} activeClassName="active-link-bg">Statistics</NavLink></li>
 </>
 
     return (
