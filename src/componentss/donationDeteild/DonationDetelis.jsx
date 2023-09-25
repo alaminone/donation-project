@@ -9,7 +9,7 @@ const DonationDetelis = ({donation}) => {
 
   return (
     <div>
-        <div style={{ backgroundColor: card_bg }} className="relative flex w-full flex-row rounded-xl bg-clip-border text-gray-700 shadow-md">
+        <div style={{ backgroundColor: card_bg }} className="relative flex w-full flex-col-row rounded-xl bg-clip-border text-gray-700 shadow-md">
   <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
     <img
       src={img}
