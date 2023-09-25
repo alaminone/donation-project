@@ -38,8 +38,8 @@
     },
   {
     "id": 4,
-    "img": "https://i.ibb.co/wsXH9BL/Rectangle-4288.png",
-    "title": "Introduction to Education of...",
+    "img": "https://i.ibb.co/k104cTV/pexels-sanket-mishra-16282573.jpg",
+    "title": "Introduction to Education",
     "category": "Education",
     "button_bg": "#ff444a26",
     "card_bg": "#ff444a26",
@@ -87,7 +87,7 @@
   {
     "id": 8,
     "img": "https://i.ibb.co/VjT3LMw/pexels-rdne-stock-project-6647121.jpg",
-    "title": "Gourmet Chocolate Collection",
+    "title": "Gourmet Collection",
     "category": "Food",
     "button_bg": "#f8714726",
     "card_bg": "#f8714726",
@@ -123,7 +123,7 @@
   {
     "id": 11,
     "img": "https://i.ibb.co/SmjLBx8/pexels-polina-tankilevitch-3873169.jpg",
-    "title": "Yoga Mat & Accessories Set",
+    "title": "<Medicine Accessories Set",
     "category": "Health",
     "button_bg": "#0052ff33",
     "card_bg": "#0052ff26",
