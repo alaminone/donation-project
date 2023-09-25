@@ -1,36 +1,44 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
 
-import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Root from './Pagess/root/Root'
-import Home from './Pagess/homepage/Home'
-import Donation from './Pagess/Donation/Donation'
-import Statistics from './Pagess/Statistics/Statistics'
+import { createRoot } from 'react-dom';
+import './index.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Root from './Pagess/root/Root';
+import Home from './Pagess/homepage/Home';
+import Donation from './Pagess/Donation/Donation';
+import Statistics from './Pagess/Statistics/Statistics';
+import ShowDeteils from './Pagess/showDeteils/ShowDeteils';
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element:<Root></Root>,
-    children:[
+    path: '/',
+    element: <Root></Root>,
+    children: [
       {
-        path:"/",
-        element:<Home></Home>
+        path: '/',
+        element: <Home></Home>,
       },
       {
-        path:"/donation",
-        element:<Donation></Donation>
+        path: '/deteils/:id',
+        element: <ShowDeteils></ShowDeteils>,
+        loader:()=>fetch('/../data.json'),
       },
       {
-        path:"/statistics",
-        element:<Statistics></Statistics>
-      }
-    ]
-  }
-])
+        path: '/donation',
+        element: <Donation></Donation>,
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>,
+      },
+    ],
+  },
+]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = createRoot(document.getElementById('root'));
+
+root.render(
   <React.StrictMode>
     <RouterProvider router={router}></RouterProvider>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
