@@ -1,8 +1,7 @@
-# React + Vite
+Least 3 Project Features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Create statistics page and there show total donation and your donation in a piechart . 
 
-Currently, two official plugins are available:
+- This project have a search option and there you search any cotagroy you are donet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- click any card then show a dynamic page and show the full details.
