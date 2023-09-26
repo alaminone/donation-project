@@ -1,4 +1,4 @@
-import { PieChart, Pie } from 'recharts';
+import { PieChart, Pie, Legend } from 'recharts';
 import { useEffect, useState } from 'react';
 import { getStoreDonationDetelis } from '../../utiliti/localstroge';
 
@@ -11,8 +11,6 @@ const PieCharts = () => {
     const localData = getStoreDonationDetelis();
     const totalDonations = localData.length;
 
-    
-
     setTotal(totalDonations);
 
     const averageDonation = (totalDonations / total) * 100;
@@ -23,21 +21,20 @@ const PieCharts = () => {
   }, []);
 
   const pieChartData = [
-    { name: 'Total Donation', value: totalValue, fill: '#0088FE' },
-    { name: 'My Donation', value: average, fill: '#00C49F' }, 
+    { name: 'Donation', value: totalValue, fill: '#0052FF' },
+    { name: 'Your Donation', value: average, fill: '#FF444A' }, 
   ];
 
   return (
-    <div className='p-20'>
+    <div className='mb-10'>
       <PieChart width={400} height={500}>
         <Pie
           data={pieChartData}
           dataKey="value"
           nameKey="name"
-          
-          
           label
         />
+        <Legend />
       </PieChart>
     </div>
   );

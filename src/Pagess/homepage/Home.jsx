@@ -7,7 +7,7 @@ const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <div>
+    <div >
       <Bannar onSearch={setSearchQuery}></Bannar>
       <Donationitems searchQuery={searchQuery}></Donationitems>
     </div>

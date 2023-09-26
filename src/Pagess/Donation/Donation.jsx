@@ -21,7 +21,7 @@ const Donation = () => {
 
   return (
     <div className="container mx-auto">
-     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-3 gap-4 mt-10">
+     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-4 gap-4 mt-10 ">
      { 
      isShow ? donationDetels?.map((donation) => (
         <DonationDetelis 
@@ -37,7 +37,7 @@ const Donation = () => {
       ))
     }
      </div>
-    <div className="flex justify-end my-7">
+    <div className="flex justify-end my-7 mx-4">
     <button className="btn btn-outline  bg-[#FF444A] text-white " onClick={()=>setIsShow(!isShow)}>show all</button>
     </div>
     </div>

@@ -31,8 +31,8 @@ const navLink = <>
 </>
 
     return (
-        <div>
-            <div className="flex bg-base-100 container mx-auto mt-5 mb-2 items-center">
+        <div className='container mx-auto mt-5 mb-2 '>
+            <div className="flex bg-base-100 items-center mx-3 ">
   <div className="navbar-start mx-5">
   <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
