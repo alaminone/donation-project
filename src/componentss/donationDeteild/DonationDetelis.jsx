@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types'
 
-const DonationDetelis = ({donation}) => {
+const DonationDetelis = ({donation }) => {
 
 
 
@@ -38,8 +38,8 @@ const DonationDetelis = ({donation}) => {
 }
 
 DonationDetelis.propTypes = {
-    donation:PropTypes.object.isRequired,
-   
-}
+  donation: PropTypes.object.isRequired,
+
+};
 
 export default DonationDetelis

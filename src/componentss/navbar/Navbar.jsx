@@ -4,21 +4,15 @@ import { useState } from 'react';
 
 const Navbar = () => {
 
-  const [active , setActive]= useState("home")
+  const [active , setActive]= useState("/")
 
-  // const activeLinkColor = {
-  //   // backgroundColor: "#FF444A",
-  //   textDecoration: "underline",
-  //   textDecorationColor: "#FF444A",
-  //   color: "#FF444A",
-  // };
 
 const navLink = <>
-    <li><NavLink onClick={()=>setActive("home")} className={`${active=="home" ? "text-red-500  border-b-2 border-red-500":" "}`}  to={"/"} >Home</NavLink></li>
+    <li><NavLink onClick={()=>setActive("/")} className={`${active=="/" ? "text-red-500  border-b-2 border-red-500":" "}`}  to={"/"} >Home</NavLink></li>
 
-      <li><NavLink onClick={()=>setActive("donation")} className={`${active=="donation" ? "text-red-500  border-b-2 border-red-500":" "}`}  to={"/donation"} >Donation</NavLink></li>
+      <li><NavLink onClick={()=>setActive("/donation")} className={`${active=="/donation" ? "text-red-500  border-b-2 border-red-500":" "}`}  to={"/donation"} >Donation</NavLink></li>
       
-      <li><NavLink onClick={()=>setActive("statistics")} className={`${active=="statistics" ? "text-red-500 border-b-2 border-red-500":" "}`}  to={"/statistics"} >Statistics</NavLink></li>
+      <li><NavLink onClick={()=>setActive("/statistics")} className={`${active=="/statistics" ? "text-red-500 border-b-2 border-red-500":" "}`}  to={"/statistics"} >Statistics</NavLink></li>
 </>
 
     return (

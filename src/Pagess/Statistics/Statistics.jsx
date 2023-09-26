@@ -1,16 +1,12 @@
-import { getStoreDonationDetelis } from "../../utiliti/localstroge";
+import PieCharts from "../../componentss/paichart/PaiCharts";
 
 
 const Statistics = () => {
-
-    const localData = getStoreDonationDetelis();
-    console.log(localData)
-
-    return (
-        <div>
-            fdfvffb
-        </div>
-    );
+  return (
+    <div className="container mx-auto flex justify-center items-center">
+      <PieCharts></PieCharts>
+    </div>
+  );
 };
 
 export default Statistics;

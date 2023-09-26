@@ -1,14 +1,19 @@
-import Bannar from "../../componentss/Bannar/Bannar";
-import Donationitems from "../../componentss/allitem/Donationitems";
 
+import { useState } from 'react';
+import Bannar from '../../componentss/Bannar/Bannar';
+import Donationitems from '../../componentss/allitem/Donationitems';
 
 const Home = () => {
-    return (
-        <div>
-           <Bannar></Bannar>
-           <Donationitems></Donationitems>
-        </div>
-    );
+  const [searchQuery, setSearchQuery] = useState('');
+
+  return (
+    <div>
+      <Bannar onSearch={setSearchQuery}></Bannar>
+      <Donationitems searchQuery={searchQuery}></Donationitems>
+    </div>
+  );
 };
 
 export default Home;
+
+
